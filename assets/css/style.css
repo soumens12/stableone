@@ -16966,7 +16966,10 @@ li.has-dropdown:hover .submenu {
   stroke: #fff !important;
 }
 .single-service-style-two:hover .inner{
-  overflow: auto;
+  overflow: visible;
+  display: block;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;
 }
 .single-service-style-two:hover .inner .icon {
   margin-bottom: 45px;
